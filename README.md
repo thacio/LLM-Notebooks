@@ -2,12 +2,10 @@
 
 Repositório com alguns notebooks de modelos de linguagem
 
----
 ## Finetunning-LanguageModel
 
 Tutorial para fine-tune em dataset próprio, carregando de um dataframe do pandas obtido de um arquivo tsv. Suporta modelos decoder ou encoder-decoder.
 
----
 ## Benchmark-LM
 
 Notebook de benchmarks para modelos do tipo decoder e encoder-decoder com datasets em português.
