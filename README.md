@@ -2,6 +2,10 @@
 
 Repositório com alguns notebooks de modelos de linguagem
 
+## Finetunning-LanguageModel
+
+Tutorial para fine-tune em dataset próprio, carregando de um dataframe do pandas obtido de um arquivo tsv. Suporta modelos decoder ou encoder-decoder.
+
 ## Benchmark-LM
 
 Notebook de benchmarks para modelos do tipo decoder e encoder-decoder com datasets em português.
@@ -24,7 +28,3 @@ Benchmarks obtidos:
 * Dropout 0.1 para o SQUAD, sem dropout para o restante dos datasets.
 
 Observação: Foram utilizadas as mesmas configurações para todos os modelos, com o fim de comparação do mesmo setup. Isso não implica dizer que algum dos modelos não possam obter melhores resultados com um melhor ajuste dos hiperparâmetros ou a mudança dos prompts.
-
-## Finetunning-LanguageModel
-
-Tutorial para fine-tune em dataset próprio, carregando de um dataframe do pandas obtido de um arquivo tsv. Suporta modelos decoder (gpt2) ou encoder-decoder (t5).
