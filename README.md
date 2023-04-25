@@ -1,4 +1,4 @@
-# LLM-Notebooks
+# Large Language Models Notebooks
 
 Repositório com alguns notebooks de modelos de linguagem
 
