@@ -2,10 +2,10 @@
 
 Repositório com alguns notebooks de modelos de linguagem
 
-| Notebook | Colab |
-|----------------------------------|---------------|
-| benchmark-LM.ipynb | [![Open In Colab](https://colab.research.google.com/github/thacio/LLM-Notebooks/blob/main/benchmark-LM.ipynb) |
-| Finetunning-LanguageModel.ipynb | [![Open In Colab](https://colab.research.google.com/github/thacio/LLM-Notebooks/blob/main/Finetunning-LanguageModel.ipynb) |
+| Notebook                        | Colab                                                                                                                       |
+|---------------------------------|-----------------------------------------------------------------------------------------------------------------------------|
+| benchmark-LM.ipynb              | [![Open In Colab](https://colab.research.google.com/github/thacio/LLM-Notebooks/blob/main/benchmark-LM.ipynb)             |
+| Finetunning-LanguageModel.ipynb | [![Open In Colab](https://colab.research.google.com/github/thacio/LLM-Notebooks/blob/main/Finetunning-LanguageModel.ipynb |
 
 
 ## Finetunning-LanguageModel.ipynb
