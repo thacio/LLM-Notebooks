@@ -24,7 +24,7 @@ Este notebook pode servir de base para finetunning em datasets próprios, é só
 
 Observação: Foram utilizadas as mesmas configurações para todos os modelos, com o fim de comparação do mesmo setup. Isso não implica dizer que algum dos modelos não possam obter melhores resultados com um melhor ajuste dos hiperparâmetros ou a mudança dos prompts.
 
-|                                    | Parameters | Assin2 Score Pearson &uarr; | Assin2 Score Mse | Assin2 Entail Acc | Assin2 Entail F1 | Cola Acc | Cola Matthews Corr | Mrpc Acc | Rte Acc  | Stsb Pearson | Stsb Spearmanr | Stsb Mse | Wnli Acc | squad Acc | squad F1 |
+|                                    | Parameters | Assin2 Score Pearson&uarr; | Assin2 Score Mse&darr; | Assin2 Entail Acc&uarr; | Assin2 Entail F1&uarr; | Cola Acc&uarr; | Cola Matthews Corr&uarr; | Mrpc Acc&uarr; | Rte Acc&uarr;  | Stsb Pearson&uarr; | Stsb Spearmanr&uarr; | Stsb Mse&darr; | Wnli Acc&uarr; | squad Acc&uarr; | squad F1&uarr; |
 |------------------------------------|------------|----------------------|------------------|-------------------|------------------|----------|--------------------|----------|----------|--------------|----------------|----------|----------|-----------|----------|
 | ptt5-small-portuguese-vocab        | 69.8M      | 0.792753             | 0.547639         | 0.876225          | 0.87609          | 0.708533 | 0.184335           | 0.821078 | 0.67509  | 0.817776     | 0.813883       | 0.852606 | 0.478873 | 64.90066  | 75.90639 |
 | ult5-pt-small<sup>1</sup> sem prefixo           | 82.4M      | 0.81745              | 0.419042         | 0.88317           | 0.883074         | 0.688399 | 0.111816           | 0.806373 | 0.685921 | 0.852452     | 0.847828       | 0.641772 | 0.464789 | 65.38316  | 76.61703 |
@@ -34,3 +34,7 @@ Observação: Foram utilizadas as mesmas configurações para todos os modelos, 
 | ptt5-base-portuguese-vocab         | 236.9M     | 0.823663             | 0.442637         | 0.895425          | 0.895156         | 0.725791 | 0.267567           | 0.852941 | 0.707581 | 0.851498     | 0.842867       | 0.649944 | 0.507042 | 71.3245   | 81.47399 |
 
 <sup>1</sup> Dropout 0.1 para o SQUAD, sem dropout para o restante dos datasets.
+
+&uarr; quanto maior, melhor a performance.
+
+&darr; quanto menor, melhor a performance.
