@@ -14,9 +14,11 @@ Tutorial para fine-tune em dataset próprio, carregando de um dataframe do panda
 
 ## Benchmark-LM.ipynb
 
-Notebook de benchmarks para modelos do tipo decoder e encoder-decoder com datasets em português.
+Notebook de benchmarks para modelos do tipo decoder, encoder-decoder e encoder com datasets em português.
 
-É feito o fine-tune em diversos datasets ao mesmo tempo, com as métricas sendo calculadas individualmente para cada dataset. Assim, basta comentar ou descomentar o bloco com o dataset para considerá-lo ou não no benchmark.
+Para os modelos decoder e encoder-decoder, é feito o fine-tune em diversos datasets ao mesmo tempo, com as métricas sendo calculadas individualmente para cada dataset. Assim, basta comentar ou descomentar o bloco com o dataset para considerá-lo ou não no benchmark.
+
+Para os modelos encoder, só suporta um dataset por vez, então é necessário comentar as células dos datasets e deixar apenas uma descomentada.
 
 Este notebook pode servir de base para finetunning em datasets próprios, é só seguir a estrutura da definição dos datasets.
 
